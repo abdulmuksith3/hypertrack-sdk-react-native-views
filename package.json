@@ -1,0 +1,65 @@
+{
+  "name": "hypertrack-sdk-react-native-views",
+  "version": "7.3.0",
+  "description": "React Native module for a HyperTrack SDK + Views SDK",
+  "main": "./js/index.js",
+  "author": "abdulmuksith3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hypertrack/sdk-react-native.git"
+  },
+  "homepage": "https://github.com/hypertrack/sdk-react-native/",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "hypertrack",
+    "location",
+    "tracking"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "react-native start",
+    "flow": "flow",
+    "lint": "eslint ."
+  },
+  "files": [
+    "android/src/main/AndroidManifest.xml",
+    "android/src/main/java/",
+    "android/build.gradle",
+    "ios",
+    "js",
+    "LICENSE.txt",
+    "README.md",
+    "CHANGELOG.md",
+    "hypertrack-sdk-react-native.podspec"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "react-native": "0.63.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "eslint-plugin-babel": "^5.2.1",
+    "eslint-plugin-flowtype": "2.43.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "21.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.6.1",
+    "eslint": "5.1.0",
+    "flow-bin": "^0.98.0",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-native": "0.63.3",
+    "react-test-renderer": "16.13.1",
+    "react": "16.8.6"
+  },
+  "bugs": {
+    "url": "https://github.com/hypertrack/sdk-react-native/issues"
+  }
+}
