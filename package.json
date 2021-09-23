@@ -3,12 +3,13 @@
   "version": "7.3.0",
   "description": "React Native module for a HyperTrack SDK + Views SDK",
   "main": "./js/index.js",
+  "bin": "./js/index.js",
   "author": "abdulmuksith3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hypertrack/sdk-react-native.git"
+    "url": "git+https://github.com/abdulmuksith3/hypertrack-sdk-react-native-views.git"
   },
-  "homepage": "https://github.com/hypertrack/sdk-react-native/",
+  "homepage": "https://github.com/abdulmuksith3/hypertrack-sdk-react-native-views",
   "keywords": [
     "react",
     "react-native",
@@ -60,6 +61,6 @@
     "react": "16.8.6"
   },
   "bugs": {
-    "url": "https://github.com/hypertrack/sdk-react-native/issues"
+    "url": "https://github.com/abdulmuksith3/hypertrack-sdk-react-native-viewsissues"
   }
 }
